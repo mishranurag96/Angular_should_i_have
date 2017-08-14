@@ -1,0 +1,12 @@
+Logic behind the code:
+Step 1) Understanding the problem:
+The ptoblem says that to identify the nutrients in the dish
+Step 2) We know that Clarifai APi food model can give us ingridients of food by recognizing image
+Hit the clarifai API and checj the response in browser.It is showing some values ranging from 0-1.Since it works on predictions
+So it displays higher values first 
+Step 3) Build the solution
+Create an array of proteins ,carbs ,vitamins ,fats items and initialize it with all possible  food items.
+now iterate the ingredients upto the length of array of ingriedients and find whether any ingridient is present in any of the four arrays
+Create a function which is returning the string if the ingridient is found in any of the array . Catch the response of that function in a variable
+and display the value of that variable in template  
+
